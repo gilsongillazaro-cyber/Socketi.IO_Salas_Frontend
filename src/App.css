@@ -1,0 +1,171 @@
+.App {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2 strong {
+  color: blue;
+  text-transform: capitalize;
+}
+.off {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.off p {
+  width: 70%;
+  box-shadow: 0 0 16px red;
+  padding: 20px;
+  border-radius: 10pt;
+  text-align: center;
+  background: red;
+  font-size: 1.8rem;
+}
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100px;
+  justify-content: space-around;
+  padding: 20px;
+}
+.form select {
+  font-size: 16px;
+  width: 80%;
+  height: 50px;
+  background: lightgray;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10pt;
+  outline-color: blue;
+}
+
+.form button {
+  width: 20%;
+  height: 50px;
+  border-radius: 20pt;
+  padding: 10px;
+  background: blue;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  color: white;
+  transition: 1s;
+}
+.form button:hover {
+  box-shadow: 0 0 32px blue;
+}
+#sair {
+  width: 50%;
+  background: orangered;
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 10pt;
+  margin: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+#sair:hover {
+  box-shadow: 0 0 32px orangered;
+}
+
+.areaSms {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.areaSms ul {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 10px;
+}
+.areaSms ul li {
+  list-style: none;
+  color: black;
+  display: block;
+  padding: 10px;
+  max-width: 330px;
+  min-width: 80px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.areaSms ul li h3{
+    width: 100%;
+     overflow-wrap: break-word;
+  word-break: break-word;
+    min-height: 50px;
+    background: rgba(211, 211, 211, 0.685);
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 10pt;
+}
+.areaSms ul li h3 strong{
+  font-weight: normal;
+font-family: 'Times New Roman', Times, serif;
+}
+.areaSms ul li p{
+  font-weight: normal;
+  text-align: left;
+  width: 100%;
+}
+.enviada{
+    border-radius: 20pt 20pt 0 20pt;
+    background: linear-gradient(45deg,blue,darkblue);
+    align-self: flex-end;
+}
+.recebida{
+    border-radius: 20pt 20pt 20pt 0;
+    background: white;
+    align-self: flex-start;
+}
+.areaSms form{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+}
+.areaSms form input{
+    height: 60px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    border: none;
+    outline-color: blue;
+    border-radius: 5pt;
+}
+.areaSms form button{
+    height: 60px;
+    width: 20%;
+    border-radius: 20pt;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.areaSms form button:hover {
+  box-shadow: 0 0 32px blue;
+}
