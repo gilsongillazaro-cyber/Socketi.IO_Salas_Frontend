@@ -58,7 +58,7 @@ function App() {
     nome: "usuario fake",
   };
   useEffect(() => {
-    const socket = io("http://localhost:3000");
+    const socket = io("https://socketi-io-salas-backend.onrender.com");
 
     socket.on("connect", () => {
       toast.info("conexão estabeliida");
@@ -121,7 +121,7 @@ function App() {
   }, [mensagens, mensagensMongoDb, mensagensNodejs, mensagensReact]);
   return (
     <div className="App">
-      
+
       <Online>
         <FaviconOnline />
       </Online>
